@@ -48,15 +48,15 @@ navigation.addEventListener('mouseover',function(event){
   movingPicture.addEventListener("click", (event) => {
     event.target.style.display ="none";
   })
-   // click on Fun in the sun and console will display a message
+   //8: click on Fun in the sun and console will display a message
   const sunnyDay = document.querySelector (".content-pick .destination h4"); 
    sunnyDay.addEventListener ('click', (e) => console.log ("Client is interested in sunny places")); 
    
-   // click on Mountain Excursion and console will display a message
+   //9: click on Mountain Excursion and console will display a message
   const mountainDay = document.querySelector(".content-pick .destination:nth-child(2) h4"); 
    mountainDay.addEventListener ('click', (e) => console.log ("Client is interested in the mountains")); 
   
-   // click on island getaway and console will display a message
+   //10: click on island getaway and console will display a message
    const islandDay= document.querySelector(".content-pick .destination:nth-child(3) h4"); 
    islandDay.addEventListener ('click', (e) => console.log ("Client is interested in islands")); 
   
